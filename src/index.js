@@ -153,7 +153,6 @@ const createIndex = () => {
 
 function scrollListener(){
     let scrollpos = window.scrollY;
-    console.log(scrollpos);
     const pizza = document.getElementById("pizza-index");
     const part = document.getElementById("pizza-index-part");
     
@@ -182,8 +181,6 @@ function scrollListener(){
     
       if (scrollpos >= Media()) { pizzaCoupee(); console.log(window.innerWidth); }
       else { pizzaFull() }
-    
-      console.log(scrollpos)
     });
     
 }
