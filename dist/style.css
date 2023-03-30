@@ -216,10 +216,16 @@ h1 {
     gap: 20vh;
 }
 
-.contact-us{
+.title-page{
     text-align: center;
     color: var(--greenDark);
+    border-bottom: var(--red) solid;
+    border-width: 2vh;
+    margin: 0;
+    margin-top: 4rem;
 }
+
+
 
 .contact-container{
     display: grid;
@@ -239,4 +245,36 @@ h1 {
     flex-direction: column;
     align-items: center;
     gap: 1vh;
+    box-shadow: 6px 6px 16px black;
 }
+
+/* === Carte === */
+
+
+.menu{
+    background-color:#000000d5;
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+}
+
+.pizza-menu{
+    width: 37%;
+}
+
+.informations{
+    color: var(--bluePastel);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price{
+    color: var(--greenLight);
+    margin-top: 1rem;
+}
+
+.nom{
+    color: var(--pan);
+}
+
