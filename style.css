@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+:root{
+    --greenDark: #12644C;
+    --greenPastel: #67957B;
+    --greenLight: #71B83B;
+    --red: #8C363C;
+    --bluePastel: #83A49B;
+    --white: #F6D3B7;
+    --pan: #F9CE7E;
+    --other:#181D17;
+    --black : rgb(8, 7, 7);
+}
+
+body, #content{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+body{
+    background-color: #a8ced1;
+}
+
+
+header{
+    display: flex;
+    grid-area: header;
+    color:white;
+    justify-content: space-between;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: column;   
+    width: 12vw;
+    align-items: center;
+    margin: 1.5rem;
+    min-width: 112px;
+}
+
+.logo{
+    width: 100%;
+    border-top-right-radius: 1rem;
+
+}
+
+.menu-deroulant, #menu{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    background-color: var(--red);
+    border: none;
+}
+
+#carte{
+    visibility: hidden;
+}
+#contact{
+    visibility: hidden;
+    border-bottom-left-radius: 1rem;
+}
+
+nav:hover > *{
+   cursor: pointer;
+}
+
+.menu-deroulant:hover, #menu:hover{
+    border: solid var(--pan);
+  
+}
+
+.order{
+    display: flex;
+    background-color: var(--greenDark);
+    border-radius: 1rem;
+    color: white;
+    height: 8vh;
+    min-width: 208px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.order:hover{
+    cursor: pointer;
+}
+
+
+.upper-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.pizza{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+
+.pub{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    grid-area: pub;
+    color: var(--greenDark);
+    margin: 4.5rem;
+    text-align:left;
+    text-align: justify;
+}
+
+
+.text-huge{
+    font-size: 7rem;
+    margin: 0.25rem;
+}
+
+.text-medium{
+    font-size: 4rem;
+    margin: 0.25rem;
+}
+
+
+.text-small{
+    font-size: 2rem;
+    margin: 0.25rem;
+    grid-area: text;
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+
+#pizza-index-part, #pizza-index{
+    width: 37%;
+}
+.pizza-index-part{
+    position: absolute;
+}
+
+.pizza-part-fixed{
+    position: fixed;
+    bottom: 0;
+
+}
+
+.fond-jaune{
+    grid-area: fond-jaune;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20vh;
+    width: 100%;
+    height: 150vh;
+    background-color: var(--greenPastel);
+    color: var(--pan);
+}
+
+.description-container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 30vw;
+    text-align:center
+}
+
+.description > img{
+    width: 30vw;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 16px black;
+}
+
+
+.fond-rouge{
+    grid-area: fond-rouge;
+    height: 10vh;
+    width: 100%;
+    background-color: var(--red);
+}
+
+
+@media screen and (min-width: 320px) {
+
+}
+
+/* IPAD */
+
+@media screen and (min-width: 1024px){
+
+}
+
+
+/* LAPTOP */
+
+@media screen and (min-width: 1440px) {
+
+}
+
+/* LARGE */
+
+@media screen and (min-width: 1920px){
+
+}
+
