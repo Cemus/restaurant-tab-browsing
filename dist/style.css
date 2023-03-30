@@ -93,6 +93,7 @@ nav:hover > *{
     cursor: pointer;
 }
 
+/* === INDEX === */
 
 .upper-page{
     display: flex;
@@ -207,27 +208,35 @@ h1 {
     background-color: var(--red);
 }
 
+/* === Contact === */
 
-@media screen and (min-width: 320px) {
-
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
 }
 
-/* IPAD */
-
-@media screen and (min-width: 1024px){
-
+.contact-us{
+    text-align: center;
+    color: var(--greenDark);
 }
 
-
-/* LAPTOP */
-
-@media screen and (min-width: 1440px) {
-
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    gap: 10vh;
 }
 
-/* LARGE */
-
-@media screen and (min-width: 1920px){
-
+.contact{
+    color: var(--red);
+    background-color: var(--pan);
+    border-radius: 10rem;
+    padding: 4rem;
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
 }
-
