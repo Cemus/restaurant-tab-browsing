@@ -66,7 +66,7 @@ const createContact = () => {
 
     const location = document.createElement("h3");
     location.classList.add("text-medium");
-    const locationText = document.createTextNode("Location :");
+    const locationText = document.createTextNode("Location");
     const address = document.createElement("p");
     address.classList.add("text-small");
     const addressText = document.createTextNode("221B Baker Street");
